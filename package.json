@@ -1,0 +1,48 @@
+{
+  "bugs": {
+    "url": "https://github.com/rarecoil/mqtt-packet-fuzzy/issues"
+  },
+  "contributors": [
+    {
+      "name": "rarecoil",
+      "url": "https://github.com/rarecoil"
+    }
+  ],
+  "dependencies": {
+    "bl": "^1.2.1",
+    "inherits": "^2.0.3",
+    "process-nextick-args": "^2.0.0",
+    "safe-buffer": "^5.1.0",
+    "sinkdweller": "^1.0.3"
+  },
+  "description": "Radamsa fuzzer backed mqttjs/mqtt-packet@5.6.0 for blind MQTT protocol fuzzing.",
+  "devDependencies": {
+    "dev-null": "^0.1.1",
+    "pre-commit": "^1.2.2",
+    "readable-stream": "^2.3.0",
+    "standard": "^10.0.2",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  },
+  "homepage": "https://github.com/rarecoil/mqtt-packet-fuzzy",
+  "keywords": [
+    "MQTT",
+    "packet",
+    "parse",
+    "publish",
+    "subscribe",
+    "pubsub",
+    "fuzzing",
+    "radamsa"
+  ],
+  "license": "MIT",
+  "main": "mqtt.js",
+  "name": "mqtt-packet-fuzzy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rarecoil/mqtt-packet-fuzzy.git"
+  },
+  "scripts": {},
+  "types": "types/index.d.ts",
+  "version": "0.1.0"
+}
